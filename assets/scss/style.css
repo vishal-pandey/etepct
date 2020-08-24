@@ -2077,12 +2077,7 @@ hr {
 
 .slider-area {
   margin-top: -1px;
-  background: /* top, transparent red */ 
-    linear-gradient(
-      rgba(47, 10, 146, 0.45), 
-      rgba(47, 10, 146, 0.45)
-    ),
-    /* bottom, image */ url(../img/gbu/5.jpg);
+  background-image: url(../img/hero/h1_hero.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
