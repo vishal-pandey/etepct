@@ -2241,7 +2241,8 @@ hr {
     margin-right: 16px;
     padding-right: 15px;
     height: 60px;
-    width: 70px;
+    /*width: 70px;*/
+    
     position: relative;
     display: inline-block;
     text-align: center; }
