@@ -2058,17 +2058,17 @@ hr {
       height: 500px; } }
 
 .slider-height2 {
-  height: 450px;
+  height: 150px;
   background-size: cover; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .slider-height2 {
-      height: 350px; } }
+      height: 150px; } }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     .slider-height2 {
-      height: 260px; } }
+      height: 150px; } }
   @media (max-width: 575px) {
     .slider-height2 {
-      height: 260px; } }
+      height: 150px; } }
 
 .slider-area2 {
   background-image: url(../img/hero/hero2.png);
@@ -2666,9 +2666,13 @@ hr {
     padding-bottom: 0px; } }
 .team-area .single-team .team-img {
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative; }
   .team-area .single-team .team-img img {
-    width: 100%;
+    width: 80%;
+    height: 250px;
     transform: scale(1);
     transition: all 0.6s ease-out 0s; }
 .team-area .single-team .team-caption {

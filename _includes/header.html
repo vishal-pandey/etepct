@@ -54,10 +54,22 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li><a href="index.html">Home</a></li>
-                                        <li><a href="submission.html">For Authors</a></li>
-                                        <li><a href="committees.html">Committees</a></li>
-                                        <li><a href="advisory.html">Advisory Board</a></li>
-                                        <li><a href="speakers.html">Keynote Speakers</a></li>
+                                        <li><a href="#">Committees</a>
+                                            <ul class="submenu">
+                                                <li><a href="advisory.html">Advisory Board</a></li>
+                                                <li><a href="organising-committee.html">Organising Committee</a></li>
+                                                <li><a href="technical-committee.html">Technical Committee</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="call-for-paper.html">Call For Paper</a></li>
+                                        <!-- <li><a href="submission.html">For Authors</a></li> -->
+                                        <li><a href="#">Paper Submission</a>
+                                            <ul class="submenu">
+                                                <li><a href="tracks.html">Tracks</a></li>
+                                                <li><a href="paper-submission-guidelines.html">Paper Submission Guidelines</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="keynote-speaker.html">Keynote Speakers</a></li>
                                         <li><a href="contact.html">Contact Us</a></li>
                                     </ul>
                                 </nav>
@@ -81,8 +93,11 @@
 
 <style type="text/css">
     #navigation li a{
-        /*font-size: 13px!important;*/
+        font-size: 15px!important;
         padding: 39px 15px;
+    }
+    .submenu{
+        z-index: 2;
     }
     @media (max-width: 575px){
         .header-area .main-header {
