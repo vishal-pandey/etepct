@@ -217,7 +217,7 @@
     }
     var timerdate = mm + '/' + dd + '/' + yyyy;
     // For demo preview end
-    var timerdate = '02/12/2021';
+    var timerdate = '03/19/2021';
     
 
     // Use this for real timer date
